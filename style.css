@@ -87,8 +87,26 @@ nav{
  padding: 0.5rem 1rem;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, figcaption, figure, header, hgroup, main, nav, section {
  display: block;
+}
+/* Footer Project */
+  ul{
+    list-style-type: none;
+}
+.bottom-container{
+    width: 980px;
+   display: flex;
+}
+.list-inline-item{
+    color: var(--blue);
+}
+.bottom-right{
+    justify-self: flex-end;
+   /*  margin-left: 150px;  */
+}
+.bottom-right i{
+    padding: 10px;
 }
 
 @media (min-width: 768px){

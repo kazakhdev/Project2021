@@ -241,3 +241,46 @@ header.masthead h1 {
 .text-center {
     text-align: center!important;
 }
+
+/* Showcase img */
+
+.container-1{
+    height: 85vh; 
+    text-align: center;
+    background-color: #f8f9fa;
+
+
+}
+.foto{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 5px 5px 0 #adb5bd;
+    margin-bottom: 20px;
+}
+h1{
+    padding: 100px 0 50px 0;
+    
+}
+
+.image-grid{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.image{
+    width: 400px;
+    font-weight: 400px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    
+    
+}
